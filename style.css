@@ -1,0 +1,47 @@
+.login {
+  background-color: rgb(33, 117, 33) !important;
+}
+
+.login:hover {
+  background: linear-gradient(
+    to right,
+    rgb(33, 117, 33) 50%,
+    rgb(62, 160, 62) 50%
+  ) !important;
+  background-size: 200% 100% !important;
+  background-position: right bottom !important;
+  transition: all 0.3s ease-out !important;
+}
+
+.logout {
+  background-color: rgb(223, 67, 67) !important;
+}
+
+.logout:hover {
+  background: linear-gradient(
+    to right,
+    rgb(223, 67, 67) 50%,
+    rgb(223, 100, 100) 50%
+  ) !important;
+  background-size: 200% 100% !important;
+  background-position: right bottom !important;
+  transition: all 0.3s ease-out !important;
+}
+
+.search {
+  color: rgb(238, 205, 20);
+  font-weight: 400;
+  border: 1px solid rgb(238, 205, 20);
+}
+
+.search:hover {
+  color: rgb(0, 0, 0);
+  background: linear-gradient(
+    to right,
+    rgb(36, 36, 36) 50%,
+    rgb(238, 205, 20) 50%
+  ) !important;
+  background-size: 200% 100% !important;
+  background-position: right bottom !important;
+  transition: all 0.3s ease-out !important;
+}
