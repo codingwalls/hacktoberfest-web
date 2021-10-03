@@ -1,8 +1,4 @@
 # Hacktoberfest
 
-Make a E-commerce website in which following points included.
-
-* Navbar
-* Carousel
-* FAQ section
-* Login / Signup
+* Make a E-commerce website.
+* Hosted Here - https://codingwalls.github.io/hacktoberfest-web/
