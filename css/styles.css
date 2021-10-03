@@ -1,0 +1,13 @@
+#carousels{
+
+  text-align: center;
+  background-color: #0a81ab;
+  color: #fff;
+  padding: 4% 32;
+
+}
+.test-img{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  }
