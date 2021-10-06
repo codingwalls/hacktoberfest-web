@@ -4,3 +4,17 @@ background-color: inherit;
   text-align: center;
   color: white;
 }
+a.text-reset{
+  text-decoration: none;
+}
+a.text-reset:hover{
+  text-decoration: underline;
+  opacity: 0.8;
+}
+a.icon-reset{
+text-decoration: none;
+color: inherit!important;
+}
+a.icon-reset:hover{
+  opacity: 0.7;
+  }

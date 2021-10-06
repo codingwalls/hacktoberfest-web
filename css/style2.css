@@ -1,0 +1,84 @@
+/* style for privacy page */
+
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+.c1{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin: auto;
+}
+.c11{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.container{
+  max-width: 1280px;
+}
+.pc1{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.c2{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 80%;
+}
+.c21{
+  padding: .5rem;
+  width: 50%;
+}
+.c211{
+  background-color: white;
+  border-radius: .5rem;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 1rem;
+}
+h1{
+  font-weight: bolder;
+}
+.bu2{
+  display: flex;
+  margin: auto;
+  color: rgb(248, 248, 248);
+  background-color: rgb(0, 209, 0);
+  border-radius: .25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.bu2:hover{
+    background-color: #20c529;
+    transform:scale(1.3);
+}
+span{
+    text-align: center;
+}
+@media (max-width: 600px) 
+{
+  .c21  
+  {width: 90%;
+  }
+}
+@media (max-width: 345px) 
+{
+  .c21  
+  {width: 100%;
+  }
+  img{
+    width: 0px;
+  }
+}
