@@ -4,3 +4,28 @@ background-color: inherit;
   text-align: center;
   color: white;
 }
+.card {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cols {
+    padding: 3% 2%;
+}
+.container {
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 1.25em;
+    text-align: center;
+    padding: 5px;
+    margin: 60px auto;
+    width: 70%;
+}
+#buybtn{
+  background-color: green;
+  width: 100px;
+
+}
+#buybtn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
