@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainsignupCard{
+    width: 35%;
+    margin: auto;
+    margin-top: 40px;
+}
+.inputMainCard{
+    border: 1px solid #1167b1;
+    border-radius: 20px;
+}
+.signupHeading{
+    border: 2x solid #1167b1;
+    height: 65px;
+    background-color: #1167b1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.signupText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.inputCard{
+    margin-top: 5px;
+}
+.inputName{
+    margin: auto;
+    margin-top: 20px;
+}
+.container{
+    position: relative;
+}
+.signupBtn{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #18385e;
+    border-radius: 4px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+}
+.signupbutton{
+    font-family: 'Montserrat', sans-serif;
+}
+.signupbutton:hover{
+    color: #e7eef4;
+}
+.signUpLink{
+    color: #18385e;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+.signUpLink:hover{
+    color: #227eee;
+}
+.dontHave{
+    color: rgb(97, 97, 97);
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.leftRight{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
